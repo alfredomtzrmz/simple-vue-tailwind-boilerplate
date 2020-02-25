@@ -7,6 +7,7 @@
 
 <script>
 import HelloWorld from './components/HelloWorld.vue'
+import './assets/sass/app.scss'
 
 export default {
   name: 'App',
@@ -18,11 +19,6 @@ export default {
 
 <style lang="scss">
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  @apply text-center text-gray-700 mt-20 antialiased font-sans;
 }
 </style>
