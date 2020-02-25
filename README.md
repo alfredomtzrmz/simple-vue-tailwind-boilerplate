@@ -7,7 +7,7 @@
 This is simple a project that been generated with `vue-create` [command](https://cli.vuejs.org/guide/creating-a-project.html)  wich is not using webpack or PurgeCSS  .
 
 ``` bash
-$ git clone https://github.com/IsidroMar95/vue-tailwind.git
+$ git clone https://github.com/IsidroMar95/simple-vue-tailwind-boilerplate.git
 $ cd vue-tailwind
 $ npm install
 $ npm run serve
