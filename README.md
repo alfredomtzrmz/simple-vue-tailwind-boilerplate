@@ -15,9 +15,18 @@ $ npm run serve
 
 ### What's Included
 
-- `npm run serve`: Node Sass + sass loader with proper config for tailwindCSS `postcss.config.js` with `autoprefixer` to use it's directive `@apply` in scoped styles in vue component
+- `npm run serve`: Node Sass + sass loader
+- Proper config for tailwindCSS `postcss.config.js` and `tailwind.config.js` to use it's directive `@apply` in scoped styles in vue component with SASS
 
 - `npm run build`
+
+
+### What's NOT Included
+
+- PurgeCSS
+- Router
+- Vuex
+
 
 ### Fork It And Make Your Own
 
